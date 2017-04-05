@@ -1,0 +1,31 @@
+{
+  "name": "a-hapi-handlebars-company",
+  "version": "1.0.0",
+  "description": "so hapi",
+  "main": "src/start.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "start:watch": "nodemon src/start.js -e 'js, css, html, hbs'",
+    "test": "tape tests/test.js | tap-spec",
+    "coverage": "istanbul tests/test.js | tap-spec"
+  },
+  "keywords": [
+    "hapi",
+    "handlebars",
+    "navigation"
+  ],
+  "author": "PiotrBerebecki",
+  "license": "MIT",
+  "dependencies": {
+    "env2": "^2.1.1",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0",
+    "pg": "^6.1.5",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "npm-run-all": "^4.0.2"
+  }
+}

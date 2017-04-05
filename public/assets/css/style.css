@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  color: #656565;
+  /*color: red;*/
+}
+
+* {
+  box-sizing: inherit;
+  /*margin: 0;
+  padding: 0;*/
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
